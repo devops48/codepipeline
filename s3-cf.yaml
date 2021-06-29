@@ -7,3 +7,5 @@ Resources:
     Type: 'AWS::S3::Bucket'
     Properties:
       BucketName: !Ref bktname
+      VersioningConfiguration:
+        Status: Enabled
