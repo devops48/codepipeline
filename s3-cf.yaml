@@ -1,6 +1,7 @@
 Parameters:
  bktname:
    Type: String
+   Description: Name of bucket
 
 Resources:
   s3bucket:
