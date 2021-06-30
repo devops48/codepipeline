@@ -9,4 +9,4 @@ Resources:
     Properties:
       BucketName: !Ref bktname
       VersioningConfiguration:
-        Status: Suspended
+        Status: Allowed
